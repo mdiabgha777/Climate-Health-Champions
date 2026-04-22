@@ -3,6 +3,8 @@ import Hero from './components/Hero'
 import About from './components/About'
 import WhyItMatters from './components/WhyItMatters'
 import WhatWeDo from './components/WhatWeDo'
+import GetInvolved from './components/GetInvolved'
+import { Footer } from './components/Footer'
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <About/>
       <WhyItMatters/>
       <WhatWeDo/>
+      <GetInvolved/>
+      <Footer />
     </div>
   )
 }
